@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(nature-mountain-snow-cloud-black-and-white-fog-1278415-pxhere.com.jpg);
+    background-size: cover;
+    background-position: relative;
+}
+
+header{
+    position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    padding: 15px;
+   
+    
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+   
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+   display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #333;
+    color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.gallery-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+  background: #0000004f;
+  cursor: pointer;
+}
+
+.gallery-item img {
+    width: 50%;
+    border-bottom: 4px solid #ddd;
+}
+
+.caption {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}

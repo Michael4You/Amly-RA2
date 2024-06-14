@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(nature-mountain-snow-cloud-black-and-white-fog-1278415-pxhere.com.jpg);
+    background-size: cover;
+    background-position: relative;
+}
+
+header{
+    position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    padding: 15px;
+   
+    
+}
+
+header .navbar ul{
+    list-style: none;
+}
+
+header .navbar ul li{
+    position: relative;
+    float: left;
+   
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+   display: block;
+}
+
+header .navbar ul li a:hover{
+    background: #333;
+    color: #ffffff;
+
+}
+
+
+
+
+
+
+.conteiner{
+    border: solid 1px rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+
+table{
+    color: #ffffff;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 70%;  
+
+}
+
+thead{
+    background: #333;
+}
+
+th{
+    padding: 20px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    
+}
+
+tbody tr:hover {
+background: #ffffff;
+color: #000000;
+cursor: pointer;
+}
+
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
